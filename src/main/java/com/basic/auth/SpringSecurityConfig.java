@@ -35,7 +35,7 @@ public class SpringSecurityConfig {
     public UserDetailsService userDetailsService(){
 
         UserDetails ramesh = User.builder()
-                .username("ramesh")
+                .username("user")
                 .password(passwordEncoder().encode("password"))
                 .roles("USER")
                 .build();

@@ -12,6 +12,6 @@ public class WelcomeController {
 
         String userName = authentication.getName();
 
-        return "Spring Security In-memory Authentication Example - Welcome " + userName;
+        return "Basic Auth - Welcome " + userName;
     }
 }
